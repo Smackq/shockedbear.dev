@@ -16,7 +16,7 @@ export async function getAllPosts() {
 
       return {
         slug,
-        ...(data as { title: string; date: string; image?: string }),
+        ...(data as { title: string; date: string; image: string }),
       };
     })
   );
@@ -32,7 +32,7 @@ export async function getPostBySlug(slug: string) {
 
     return {
       slug: realSlug,
-      frontmatter: data as { title: string; date: string; image?: string },
+      frontmatter: data as { title: string; date: string; image?: string; },
       content,
     };
   } catch {

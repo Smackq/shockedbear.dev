@@ -4,11 +4,11 @@ import { notFound } from 'next/navigation';
 import { compileMDX } from 'next-mdx-remote/rsc';
 import type { Metadata } from 'next';
 
+
 export const metadata: Metadata = {
   title: 'shockedbear.dev',
   description: 'shockedbear.dev-blog',
 };
-
 
 export async function generateStaticParams() {
   const posts = await getAllPosts();
@@ -27,23 +27,24 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
   const { content: compiled } = await compileMDX({ source: content });
 
   return (
-    <article className="max-w-4xl mx-auto px-6 py-12 prose dark:prose-invert bg-transparent">
+    <article className="max-w-3xl mx-auto px-6 py-12 prose dark:prose-invert bg-transparent">
       <h1 className="mb-6 text-3xl font-extrabold tracking-tight text-center">{frontmatter.title}</h1>
 
       {frontmatter.image && (
-  <div className="mb-10 relative w-full aspect-video overflow-hidden rounded-xl">
-    <Image
-      src={frontmatter.image}
-      alt={frontmatter.title}
-      fill
-      sizes="(max-width: 1024px) 100vw, 768px"
-      className="object-contain"
-      priority
-    />
-  </div>
-)}
-
-      <div className="prose max-w-none">{compiled}</div>
+        <div className="mb-10 relative w-full aspect-video overflow-hidden rounded-xl">
+          <Image
+            src={frontmatter.image}
+            alt={frontmatter.title}
+            fill
+            sizes="(max-width: 1024px) 100vw, 768px"
+            className="object-contain"
+            priority
+          />
+        </div>
+      )}
+<article className="">
+  {compiled}
+</article>
     </article>
   );
 }
