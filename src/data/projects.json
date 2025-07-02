@@ -6,22 +6,11 @@
     "description": "A sleek and responsive web platform that helps users track daily habits and stay motivated through smart analytics."
   },
   {
-    "image": "/images/booking.jpeg",
-    "title": "Portfolio Website",
+    "image": "/images/google.png",
+    "title": "Google browser",
     "url": "https://portfolio.example.com",
     "description": "Hello, I'm Dennis — a senior programmer with extensive experience in software development Over the years, I’ve worked on a wide range of projects across various technologies"
-  },
-  {
-    "image": "/images/AboutNextjs.png",
-    "title": "Portfolio Website",
-    "url": "https://portfolio.example.com",
-    "description": "Bla bla bla"
-  },
-  {
-    "image": "/images/AboutNextjs.png",
-    "title": "Portfolio Website",
-    "url": "https://portfolio.example.com",
-    "description": "Bla bla bla"
   }
+
   
 ]

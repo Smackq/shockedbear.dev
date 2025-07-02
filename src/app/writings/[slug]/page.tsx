@@ -31,13 +31,13 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
       <h1 className="mb-6 text-3xl font-extrabold tracking-tight text-center">{frontmatter.title}</h1>
 
       {frontmatter.image && (
-        <div className="mb-10 relative w-full aspect-video overflow-hidden rounded-xl">
+        <div className="mb-10 relative w-full aspect-video overflow-hidden rounded-2xl">
           <Image
             src={frontmatter.image}
             alt={frontmatter.title}
             fill
             sizes="(max-width: 1024px) 100vw, 768px"
-            className="object-contain"
+            className="object-contain rounded-2xl"
             priority
           />
         </div>
@@ -48,3 +48,5 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
     </article>
   );
 }
+
+
