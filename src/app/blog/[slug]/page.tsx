@@ -7,7 +7,7 @@ import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: 'shockedbear.dev',
-  description: 'shockedbear.dev-blog',
+  description: 'shockedbear.dev',
 };
 
 export async function generateStaticParams() {

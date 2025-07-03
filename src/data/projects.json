@@ -1,5 +1,5 @@
 [
-  { 
+  {
     "image": "/images/booking.jpeg",
     "title": "Next.js Blog Platform",
     "url": "https://next-blog.example.com",
@@ -11,6 +11,4 @@
     "url": "https://portfolio.example.com",
     "description": "Hello, I'm Dennis — a senior programmer with extensive experience in software development Over the years, I’ve worked on a wide range of projects across various technologies"
   }
-
-  
 ]
