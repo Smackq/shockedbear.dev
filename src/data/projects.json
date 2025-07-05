@@ -1,14 +1,16 @@
 [
   {
-    "image": "/images/booking.jpeg",
-    "title": "Next.js Blog Platform",
-    "url": "https://next-blog.example.com",
-    "description": "A sleek and responsive web platform that helps users track daily habits and stay motivated through smart analytics."
+    "image": "/images/mst.png",
+    "title": "MST Financial",
+    "url": "https://mstfinancial.com.au",
+    "description": "A scalable financial analytics platform delivering advanced insights for institutional clients.",
+    "stack": "Laravel, Inertia.js, Vue.js, MySQL, Azure, SEO"
   },
   {
-    "image": "/images/google.png",
-    "title": "Google browser",
-    "url": "https://portfolio.example.com",
-    "description": "Hello, I'm Dennis — a senior programmer with extensive experience in software development Over the years, I’ve worked on a wide range of projects across various technologies"
+    "image": "/images/megastay.png",
+    "title": "Megastay",
+    "url": "https://mega-stay.ru",
+    "description": "A modern rental platform offering seamless bookings and efficient property management for owners.",
+    "stack": "Tilda, SEO (Yandex)"
   }
 ]
