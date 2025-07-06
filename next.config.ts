@@ -8,5 +8,5 @@ const nextConfig: NextConfig = {
   basePath: '',
   trailingSlash: true,
 };
-// 123
+
 export default nextConfig;
