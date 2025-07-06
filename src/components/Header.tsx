@@ -48,7 +48,7 @@ export function Header() {
                 </nav>
 
                 <div className="hidden md:flex items-center gap-2 text-white/70">
-                    <Link href="https://github.com" target="_blank" aria-label="GitHub">
+                    <Link href="https://github.com/shockedbear" target="_blank" aria-label="GitHub">
                         <Github className="w-5 h-5 hover:text-white transition-colors" />
                     </Link>
                     <Link href="https://www.linkedin.com/in/denissmagin/" target="_blank" aria-label="LinkedIn">
@@ -104,7 +104,7 @@ export function Header() {
                             transitionDelay: `${menuItems.length * 100}ms`
                         }}
                     >
-                        <Link href="https://github.com" target="_blank" aria-label="GitHub">
+                        <Link href="https://github.com/shockedbear" target="_blank" aria-label="GitHub">
                             <Github className="w-5 h-5 hover:text-white transition-colors" />
                         </Link>
                         <Link href="https://www.linkedin.com/in/denissmagin/" target="_blank" aria-label="LinkedIn">
