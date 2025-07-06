@@ -2,7 +2,6 @@ import ProjectCard from "@/components/ProjectCard";
 import projects from "@/data/projects.json";
 import type { Metadata } from "next";
 import Link from "next/link";
-import {ArrowUpRight} from "lucide-react";
 
 export const metadata: Metadata = {
     title: "shockedbear.dev",
