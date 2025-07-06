@@ -1,9 +1,12 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  publicRuntimeConfig: {
-    name: 'shockedbear.dev'
+  output: 'export',
+  images: {
+    unoptimized: true
   },
+  basePath: '',
+  trailingSlash: true,
 };
 
 export default nextConfig;

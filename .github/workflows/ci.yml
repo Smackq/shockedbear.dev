@@ -7,7 +7,7 @@ on:
     branches: [ main ]
 
 jobs:
-  build:
+  build-and-deploy:
     runs-on: ubuntu-latest
 
     steps:
@@ -30,3 +30,16 @@ jobs:
 
       - name: Build
         run: npm run build
+
+      - name: Setup custom domain
+        run: echo "shockedbear.dev" > ./out/CNAME
+
+      - name: Deploy to GitHub Pages
+        uses: JamesIves/github-pages-deploy-action@v4
+        with:
+          folder: out
+          branch: gh-pages
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+env:
+  NEXT_PUBLIC_BASE_PATH: ''
