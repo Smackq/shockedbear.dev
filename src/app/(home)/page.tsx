@@ -14,7 +14,7 @@ export const revalidate = 60;
 export default async function HomePage () {
     const aboutHtml =
         <div className={"grid gap-6 px-6"}>
-            <h1 className={"text-3xl font-medium"}>Hi! I’m Denis — Web Solutions Architect</h1>
+            <h1 className={"text-3xl font-medium leading-10"}>Hi! I’m Denis — Web Solutions Architect</h1>
             <div className={"grid gap-4 text-white/60 leading-7"}>
                 <p>With 12+ years of experience, I design and build scalable, secure web platforms that help businesses grow and innovate. From startups to global enterprises, I transform complex requirements into high-performance solutions through modern architecture, clean code, and robust cloud infrastructure.</p>
                 <p>I cover the full development lifecycle — from architecture design and coding to code reviews and team mentorship. Passionate about code quality and performance, I apply SOLID principles and design patterns to create maintainable, future-proof systems.</p>

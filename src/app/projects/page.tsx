@@ -24,7 +24,7 @@ export default function Projects () {
         <main className={"max-w-3xl mx-auto my-12 sm:my-24"}>
             <div className={"grid gap-12 sm:gap-24"}>
                 <div className={"grid gap-6 px-6"}>
-                    <h1 className={"text-3xl font-medium"}>Projects That Drive Results</h1>
+                    <h1 className={"text-3xl font-medium leading-10"}>Projects That Drive Results</h1>
                     <div className={"grid gap-4 text-white/60 leading-7"}>
                         <p>Discover a selection of projects where technology meets real business impact. From
                             high-growth startups to global platforms, each case study showcases how thoughtful
